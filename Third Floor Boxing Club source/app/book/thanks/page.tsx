@@ -1,0 +1,3 @@
+import Link from "next/link";
+import {Header,Footer} from "../../components";
+export default function Thanks(){return <><Header/><main className="booking-wrap"><div><p className="eyebrow">THE RED CORNER / CONFIRMATION</p><h1>First step taken.</h1><p>This is what the confirmation moment would look like for a real booking. No request was sent and no session has been reserved.</p><Link className="text-link" href="/">Back to the club ↗</Link></div><div className="success"><span className="eyebrow">FLOOR 03</span><h2>See you in the gym.</h2><p>In a live version, you’d receive the session details by email. For now, this is the end of the portfolio demo.</p></div></main><Footer/></>}
